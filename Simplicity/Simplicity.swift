@@ -34,6 +34,10 @@ public final class Simplicity {
         presentSafariView(loginProvider.authorizationURL)
     }
     
+    public static func testPrint() {
+        print("BRASIL")
+    }
+    
     /// Deep link handler (iOS9)
     public static func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey: Any]) -> Bool {
         safari?.dismiss(animated: true, completion: nil)
